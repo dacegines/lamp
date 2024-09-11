@@ -322,9 +322,15 @@ return [
             'label' => 4,
             'label_color' => 'success',
         ],
+        [
+            'text' => 'Tareas',
+            'url' => 'tasks',
+            'icon' => 'far fa-fw fa-file',
+
+        ],        
         ['header' => 'account_settings'],
         [
-            'text' => 'profile',
+            'text' => 'profiles',
             'url' => 'admin/settings',
             'icon' => 'fas fa-fw fa-user',
         ],
